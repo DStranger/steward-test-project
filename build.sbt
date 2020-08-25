@@ -7,7 +7,7 @@ lazy val root = (project in file("."))
     organization := "com.example",
     name := "steward-test-project",
     version := "0.0.1-SNAPSHOT",
-    scalaVersion := "2.12.7",
+    scalaVersion := "2.12.12",
     libraryDependencies ++= Seq(
       "com.github.finagle" %% "finchx-core"  % finchVersion,
       "com.github.finagle" %% "finchx-circe"  % finchVersion,
